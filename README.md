@@ -2,10 +2,10 @@
 This is an ETL ( Extract, Transform and Load) and Analytics project guided by @Ankitbansal6.
 
 It includes processes like 
-             A. DATA DOWNLOADING & EXTRACTING   
+             (A. DATA DOWNLOADING & EXTRACTING   
              B. DATA CLEANING & TRANSFORMING
              C. LOADING DATA TO SERVER
-             D. QUERYING & ANALYSING DATA
+             D. QUERYING & ANALYSING DATA)
 
 
  A. DATA DOWNLOADING & EXTRACTING :
@@ -26,8 +26,8 @@ D. QUERYING & ANALYSING DATA :
       (Sql, PostgreSQL)
      - Analysed the data with some queries by using CTE and so on.
      - Some of the queries are,
-                1. Finding top 10 highest revenue generating products
+               [ 1. Finding top 10 highest revenue generating products
                 2. Finding top 5 highest selling products in each region
                 3. Finding month over month growth comparison for 2022 and 2023 sales(eg:jan 2022 vs jan 2023)
-                4. Which sub category has highest growth by profit in 2023 compared to 2022
+                4. Which sub category has highest growth by profit in 2023 compared to 2022 ]
        
