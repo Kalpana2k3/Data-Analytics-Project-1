@@ -4,7 +4,7 @@ DOWNLOADING DATASET :
 import kaggle
 
 #Download datasets from kaggle
-!kaggle datasets download ankitbansal06/"____" -f orders.csv --force
+!kaggle datasets download ankitbansal/"____" -f orders.csv --force
 
 #extract file from zip file
 import zipfile
@@ -52,7 +52,7 @@ LOADING DATA TO SERVER
 #pip install sqlalchemy
 # establishing connection
 import sqlalchemy as sal
-engine = sal.create_engine('xxxxx')
+engine = sal.create_engine('postgresql://username:password@localhost:5432/mydatabase')
 conn = engine.connect()
 
 #Loading data into server using append option
